@@ -1,0 +1,45 @@
+html, body {
+    font-family: 'Coustard', serif;
+    font-size: 16px;
+    margin: 0;
+    height: 100%;
+    color:whitesmoke;
+}
+.pic1, .pic2, .pic3 {
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; /*for parallax effect*/
+}
+.pic1 {
+    background-image: url(pic1.jpg);
+    min-height: 100%;
+}
+.pic2 {
+    background-image: url(pic2.jpg);
+    min-height: 400px;
+}
+.pic3 {
+    background-image: url(pic3.jpg);
+    min-height: 400px;
+}
+.text-area {
+    padding: 20px 30px;
+    text-align: center;
+}
+.light {
+    background-color:white;
+    color: rgb(36, 35, 35);
+}
+.dark {
+    background-color: black;
+    color: white;
+}
+.pictext {
+    font-size: 30px;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    text-align: center;
+}
